@@ -292,10 +292,12 @@ main {
   margin-bottom: 12px;
   font-size: 23px;
   line-height: 1.2;
+  overflow-wrap: anywhere;
 }
 
 .project-card p {
   color: #46504d;
+  overflow-wrap: anywhere;
 }
 
 .tag-list {
@@ -428,6 +430,10 @@ main {
   .profile-strip div,
   .project-card {
     padding: 20px;
+  }
+
+  .project-card h3 {
+    font-size: 22px;
   }
 
   .section-header {
