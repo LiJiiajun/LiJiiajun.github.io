@@ -5,138 +5,199 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta
     name="description"
-    content="Jiajun Li, an Electrical and Computer Engineering undergraduate at ZJU-UIUC Institute with interests in machine learning, artificial intelligence, and research-oriented systems."
+    content="Jiajun Li, an Electrical and Computer Engineering undergraduate at ZJU-UIUC Institute interested in multimodal agents, LLM-based knowledge systems, and AI research."
   >
-  <title>Jiajun Li | ECE & AI Portfolio</title>
+  <title>Jiajun Li | Homepage</title>
   <link rel="preload" href="assets/images/hero-workspace.png" as="image">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <nav class="site-nav" aria-label="Primary navigation">
-      <a class="brand" href="#">Jiajun Li</a>
+  <header class="topbar">
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#home" class="nav-logo">Jiajun Li</a>
       <div class="nav-links">
-        <a href="#projects">Projects</a>
+        <a href="#about">About Me</a>
+        <a href="#interests">Research Interests</a>
+        <a href="#news">News</a>
+        <a href="#work">Selected Work</a>
+        <a href="#education">Educations</a>
+        <a href="#experience">Experience</a>
         <a href="assets/cv/CV.pdf" target="_blank" rel="noopener">CV</a>
-        <a href="mailto:jiajun.23@intl.zju.edu.cn">Email</a>
       </div>
     </nav>
-
-    <div class="hero-content">
-      <p class="eyebrow">Electrical & Computer Engineering</p>
-      <h1>Jiajun Li <span lang="zh-Hans">(&#26446;&#20339;&#39567;)</span></h1>
-      <p class="lead">
-        Undergraduate student at ZJU-UIUC Institute, Zhejiang University, focused
-        on machine learning, artificial intelligence, and systems-oriented engineering.
-      </p>
-
-      <div class="hero-actions" aria-label="Contact and profile links">
-        <a class="primary-link" href="assets/cv/CV.pdf" target="_blank" rel="noopener">View CV</a>
-        <a class="secondary-link" href="https://github.com/LiJiiajun" target="_blank" rel="noopener">GitHub</a>
-      </div>
-    </div>
   </header>
 
-  <main>
-    <section class="profile-strip" aria-label="Profile highlights">
-      <div>
-        <span class="label">Program</span>
-        <strong>ZJU-UIUC ECE</strong>
-      </div>
-      <div>
-        <span class="label">Exchange</span>
-        <strong>UIUC, 2025</strong>
-      </div>
-      <div>
-        <span class="label">Interests</span>
-        <strong>ML & AI</strong>
-      </div>
-    </section>
-
-    <section class="section" id="projects">
-      <div class="section-header">
-        <p class="eyebrow">Selected Work</p>
-        <h2>Projects</h2>
+  <main class="page" id="home">
+    <aside class="sidebar" aria-label="Profile information">
+      <div class="portrait-placeholder" aria-label="Portrait placeholder">
+        <span>JL</span>
       </div>
 
-      <div class="project-grid">
-        <article class="project-card accent-card">
-          <div class="project-meta">
-            <span>Research</span>
-            <span>LLM Pipeline</span>
+      <h1>Jiajun Li</h1>
+      <p class="chinese-name" lang="zh-Hans">&#26446;&#20339;&#39567;</p>
+      <p class="affiliation">Zhejiang University</p>
+      <p class="program">ZJU-UIUC Institute<br>Electrical & Computer Engineering</p>
+
+      <ul class="profile-links">
+        <li>Hangzhou, China</li>
+        <li><a href="mailto:jiajun.23@intl.zju.edu.cn">Email</a></li>
+        <li><a href="https://github.com/LiJiiajun" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="assets/cv/CV.pdf" target="_blank" rel="noopener">CV</a></li>
+      </ul>
+    </aside>
+
+    <div class="content">
+      <section class="section" id="about">
+        <h2>About Me</h2>
+        <p>
+          I am an undergraduate student in Electrical and Computer Engineering at
+          ZJU-UIUC Institute, Zhejiang University. In 2025, I participated in an
+          exchange program at the University of Illinois Urbana-Champaign. My
+          current interests include machine learning, large language models,
+          multimodal agents, and AI systems that can organize knowledge and
+          support reasoning.
+        </p>
+      </section>
+
+      <section class="section" id="interests">
+        <h2>Research Interests</h2>
+        <p>
+          My recent work and reading focus on agent-oriented AI systems, especially
+          how models perceive information, structure knowledge, plan tasks, and
+          produce reliable outputs.
+        </p>
+        <ul class="interest-list">
+          <li>
+            <strong>Multimodal and Embodied Agents:</strong>
+            agents that use visual or environmental information for task planning,
+            reasoning, and action decisions.
+          </li>
+          <li>
+            <strong>LLM-based Knowledge Systems:</strong>
+            pipelines that turn unstructured papers into structured cases,
+            patterns, and agent-facing knowledge packages.
+          </li>
+          <li>
+            <strong>Reliable LLM Evaluation:</strong>
+            bias detection, quality control, and benchmark-style analysis for
+            language-model outputs.
+          </li>
+        </ul>
+        <figure class="research-figure">
+          <img src="assets/images/hero-workspace.png" alt="Engineering and machine learning workspace">
+        </figure>
+      </section>
+
+      <section class="section" id="news">
+        <h2>News</h2>
+        <ul class="news-list">
+          <li>
+            <time datetime="2026-03">2026.03</time>
+            Started research work on Neuro-Knowledge Factory, an LLM-based
+            literature-mining pipeline for neuroscience and BCI papers.
+          </li>
+          <li>
+            <time datetime="2025">2025</time>
+            Participated in an exchange program at UIUC.
+          </li>
+          <li>
+            <time datetime="2024-04">2024.04</time>
+            Joined undergraduate research on fairness testing for large language
+            models.
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" id="work">
+        <h2>Selected Work</h2>
+
+        <article class="entry">
+          <div class="entry-header">
+            <h3>Neuro-Knowledge Factory: LLM-based Literature Mining</h3>
+            <span>Mar. 2026 - Present</span>
           </div>
-          <h3>Neuro-Knowledge Factory: LLM-based Literature Mining</h3>
           <p>
             Built a neuroscience literature-mining pipeline for 15K+ papers,
             converting PDF and API sources into standardized Markdown records
             and structured research cases for downstream LLM analysis.
           </p>
-          <ul class="tag-list" aria-label="Technologies">
-            <li>Python</li>
-            <li>LLMs</li>
-            <li>Literature Mining</li>
-            <li>Data Pipeline</li>
-          </ul>
-          <a class="project-link" href="assets/cv/CV.pdf" target="_blank" rel="noopener">
-            Details in CV <span aria-hidden="true">&rarr;</span>
-          </a>
+          <p class="entry-tags">Python / LLMs / Literature Mining / Data Pipeline</p>
         </article>
 
-        <article class="project-card">
-          <div class="project-meta">
-            <span>CS441</span>
-            <span>Deep Learning</span>
+        <article class="entry">
+          <div class="entry-header">
+            <h3>Bias Detection for Large Language Models</h3>
+            <span>Apr. 2024 - Jun. 2025</span>
           </div>
-          <h3>Image Classification with Deep Learning</h3>
           <p>
-            Built and trained deep learning models for image classification,
-            covering data preprocessing, model training, and evaluation in
-            Google Colab.
+            Developed an insertion-based program to detect social biases generated
+            by large language models, constructed a multi-dimensional bias dataset,
+            and evaluated model behavior across several LLMs.
           </p>
-          <ul class="tag-list" aria-label="Technologies">
-            <li>Python</li>
-            <li>PyTorch</li>
-            <li>CNN</li>
-            <li>Deep Learning</li>
-          </ul>
-          <a class="project-link" href="https://github.com/LiJiiajun/CS441-Final" target="_blank" rel="noopener">
-            GitHub <span aria-hidden="true">&rarr;</span>
-          </a>
+          <p class="entry-tags">Python / NLP / Bias Detection / LLMs</p>
         </article>
 
-        <article class="project-card">
-          <div class="project-meta">
-            <span>SRTP</span>
-            <span>Research</span>
+        <article class="entry">
+          <div class="entry-header">
+            <h3>Image Classification with Deep Learning</h3>
+            <span>Dec. 2025</span>
           </div>
-          <h3>Bias Detection for Large Language Models</h3>
           <p>
-            Developed an insertion-based program to detect social biases
-            generated by large language models, then constructed a
-            multi-dimensional bias dataset for comparative evaluation.
+            Built and trained deep learning models for waste image classification,
+            covering preprocessing, model training, and evaluation in Google Colab.
           </p>
-          <ul class="tag-list" aria-label="Technologies">
-            <li>Python</li>
-            <li>NLP</li>
-            <li>Bias Detection</li>
-            <li>LLMs</li>
-          </ul>
-          <a
-            class="project-link"
-            href="https://github.com/LiJiiajun/SRTP-Bias-Detection/blob/main/SRTP_Bias_Detection_Report.pdf"
-            target="_blank"
-            rel="noopener"
-          >
-            PDF <span aria-hidden="true">&rarr;</span>
-          </a>
+          <p class="entry-tags">Python / PyTorch / CNN / Deep Learning</p>
         </article>
-      </div>
-    </section>
+      </section>
+
+      <section class="section" id="education">
+        <h2>Educations</h2>
+        <article class="entry compact">
+          <div class="entry-header">
+            <h3>Zhejiang University</h3>
+            <span>Aug. 2023 - Present</span>
+          </div>
+          <p>Bachelor of Engineering in Electrical and Computer Engineering.</p>
+        </article>
+        <article class="entry compact">
+          <div class="entry-header">
+            <h3>University of Illinois Urbana-Champaign</h3>
+            <span>Aug. 2023 - Present</span>
+          </div>
+          <p>Bachelor of Science in Electrical Engineering.</p>
+        </article>
+      </section>
+
+      <section class="section" id="experience">
+        <h2>Experience</h2>
+        <article class="entry compact">
+          <div class="entry-header">
+            <h3>Undergraduate Researcher, ZJU</h3>
+            <span>Mar. 2026 - Present</span>
+          </div>
+          <p>Project group advised by Prof. Yang Yang.</p>
+        </article>
+        <article class="entry compact">
+          <div class="entry-header">
+            <h3>Undergraduate Researcher, ZJU</h3>
+            <span>Apr. 2024 - Jun. 2025</span>
+          </div>
+          <p>Large language modeling fairness decision making, advised by Prof. Zuozhu Liu.</p>
+        </article>
+        <article class="entry compact">
+          <div class="entry-header">
+            <h3>Vice-chairperson, Yuehai Instrumental Music Club</h3>
+            <span>Aug. 2023 - Present</span>
+          </div>
+          <p>Organized campus music events and participated in major performances.</p>
+        </article>
+      </section>
+    </div>
   </main>
 
-  <footer class="site-footer">
+  <footer class="footer">
     <span>Jiajun Li</span>
-    <a href="mailto:jiajun.23@intl.zju.edu.cn">jiajun.23@intl.zju.edu.cn</a>
+    <span>Last updated: June 2026</span>
   </footer>
 </body>
 </html>
